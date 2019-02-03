@@ -1,0 +1,1072 @@
+fileFormatVersion: 2
+guid: 60d067405483bf04c81634fcb53f3a0e
+timeCreated: 1541424568
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UI_Char_0
+    21300002: UI_Char_1
+    21300004: UI_Char_2
+    21300006: UI_Char_3
+    21300008: UI_Char_4
+    21300010: UI_Char_5
+    21300012: UI_Char_6
+    21300014: UI_Char_7
+    21300016: UI_Char_8
+    21300018: UI_Char_9
+    21300020: UI_Char_10
+    21300022: UI_Char_11
+    21300024: UI_Char_12
+    21300026: UI_Char_13
+    21300028: UI_Char_14
+    21300030: UI_Char_15
+    21300032: UI_Char_16
+    21300034: UI_Char_17
+    21300036: UI_Char_18
+    21300038: UI_Char_19
+    21300040: UI_Char_20
+    21300042: UI_Char_21
+    21300044: UI_Char_22
+    21300046: UI_Char_23
+    21300048: UI_Char_24
+    21300050: UI_Char_25
+    21300052: UI_Char_26
+    21300054: UI_Char_27
+    21300056: UI_Char_28
+    21300058: UI_Char_29
+    21300060: UI_Char_30
+    21300062: UI_Char_31
+    21300064: UI_Char_32
+    21300066: UI_Char_33
+    21300068: UI_Char_34
+    21300070: UI_Char_35
+    21300072: UI_Char_36
+    21300074: UI_Char_37
+    21300076: UI_Char_38
+    21300078: UI_Char_39
+    21300080: UI_Char_40
+    21300082: UI_Char_41
+    21300084: UI_Char_42
+    21300086: UI_Char_43
+    21300088: UI_Char_44
+    21300090: UI_Char_45
+    21300092: UI_Char_46
+    21300094: UI_Char_47
+    21300096: UI_Char_48
+    21300098: UI_Char_49
+    21300100: UI_Char_50
+    21300102: UI_Char_51
+    21300104: UI_Char_52
+    21300106: UI_Char_53
+    21300108: UI_Char_54
+    21300110: UI_Char_55
+    21300112: UI_Char_56
+    21300114: UI_Char_57
+    21300116: UI_Char_58
+    21300118: UI_Char_59
+    21300120: UI_Char_60
+    21300122: UI_Char_61
+    21300124: UI_Char_62
+    21300126: UI_Char_63
+    21300128: UI_Char_64
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_Char_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1870
+        width: 130
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1901
+        width: 68
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1864
+        width: 198
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_3
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1865
+        width: 190
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_4
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1865
+        width: 194
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_5
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1865
+        width: 133
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_6
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1876
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_7
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1865
+        width: 183
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_8
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1865
+        width: 178
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_9
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 1865
+        width: 161
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1665
+        width: 111
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_11
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1700
+        width: 82
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_12
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1665
+        width: 121
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1687
+        width: 56
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_14
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1663
+        width: 192
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_15
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1665
+        width: 163
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_16
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1665
+        width: 151
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_17
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1665
+        width: 182
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_18
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1665
+        width: 196
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_19
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1659
+        width: 175
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_20
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1465
+        width: 165
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_21
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1465
+        width: 140
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_22
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1465
+        width: 131
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_23
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1483
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_24
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1465
+        width: 104
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_25
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1483
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_26
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1465
+        width: 99
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_27
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1485
+        width: 36
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_28
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1463
+        width: 182
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_29
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1465
+        width: 190
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_30
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1465
+        width: 143
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_31
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 1490
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_32
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1264
+        width: 177
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_33
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1267
+        width: 194
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_34
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1265
+        width: 178
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_35
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1265
+        width: 154
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_36
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1265
+        width: 151
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_37
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1266
+        width: 191
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_38
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1263
+        width: 144
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_39
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1262
+        width: 147
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_40
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1060
+        width: 161
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_41
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1066
+        width: 191
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_42
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1063
+        width: 181
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_43
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1061
+        width: 132
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_44
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1063
+        width: 167
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_45
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1066
+        width: 154
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_46
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1065
+        width: 195
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_47
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1064
+        width: 195
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_48
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 883
+        width: 174
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_49
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 883
+        width: 157
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_50
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 881
+        width: 180
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_51
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 882
+        width: 181
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_52
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 914
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_53
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 884
+        width: 114
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_54
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 908
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_55
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 876
+        width: 89
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_56
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 891
+        width: 62
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_57
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 879
+        width: 180
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_58
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 866
+        width: 176
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_59
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 676
+        width: 151
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_60
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 659
+        width: 160
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_61
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 678
+        width: 152
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_62
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 671
+        width: 168
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_63
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 676
+        width: 119
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Char_64
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 16
+        width: 100
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

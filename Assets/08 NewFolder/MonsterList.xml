@@ -1,0 +1,9 @@
+<MonsterList>
+  <Monster fNumber="0" sName="리프리스" sDescription="약 140년전 영웅 크로아가 썼던 검으로 원래는 푸른색의 검이 아니였지만 푸르렀던 그의 검귀를 담아 마왕 프로테스를 봉인하는데 쓰인 영향 때문인지 푸른색을 띄고 있다. " fHp="Legend" fLevel="1" fAttack="10" fAttackSpeed="8" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="10000" fSoul="10000" />
+  <Monster fNumber="1" sName="몬스터이름" sDescription="몬스터 설명" fHp="Legend" fLevel="1" fAttack="10" fAttackSpeed="1" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="200" fSoul="200" />
+  <Monster fNumber="2" sName="몬스터이름" sDescription="몬스터 설명" fHp="Legend" fLevel="1" fAttack="10" fAttackSpeed="1" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="300" fSoul="300" />
+  <Monster fNumber="3" sName="몬스터이름" sDescription="몬스터 설명" fHp="Legend" fLevel="1" fAttack="10" fAttackSpeed="1" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="400" fSoul="400" />
+  <Monster fNumber="4" sName="몬스터이름" sDescription="몬스터 설명" fHp="Legend" fLevel="1" fAttack="10" fAttackSpeed="1" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="500" fSoul="500" />
+  <Monster fNumber="5" sName="몬스터이름" sDescription="몬스터 설명" fHp="Legend" fLevel="1" fAttack="10" fAttackSpeed="1" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="600" fSoul="600" />
+  <Monster fNumber="6" sName="몬스터이름" sDescription="몬스터 설명" fHp="Legend" fLevel="1" fAttack="10" fAttackSpeed="1" eAttackType="1" fCritical="1" fDefence="1" eDefenceType="0" fGold="700" fSoul="700" />
+</MonsterList>

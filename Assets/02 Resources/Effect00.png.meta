@@ -1,0 +1,817 @@
+fileFormatVersion: 2
+guid: c84a8576ade5af540af4543d4109601b
+timeCreated: 1541396885
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Effect00_0
+    21300002: Effect00_1
+    21300004: Effect00_2
+    21300006: Effect00_3
+    21300008: Effect00_4
+    21300010: Effect00_5
+    21300012: Effect00_6
+    21300014: Effect00_7
+    21300016: Effect00_8
+    21300018: Effect00_9
+    21300020: Effect00_10
+    21300022: Effect00_11
+    21300024: Effect00_12
+    21300026: Effect00_13
+    21300028: Effect00_14
+    21300030: Effect00_15
+    21300032: Effect00_16
+    21300034: Effect00_17
+    21300036: Effect00_18
+    21300038: Effect00_19
+    21300040: Effect00_20
+    21300042: Effect00_21
+    21300044: Effect00_22
+    21300046: Effect00_23
+    21300048: Effect00_24
+    21300050: Effect00_25
+    21300052: Effect00_26
+    21300054: Effect00_27
+    21300056: Effect00_28
+    21300058: Effect00_29
+    21300060: Effect00_30
+    21300062: Effect00_31
+    21300064: Effect00_32
+    21300066: Effect00_33
+    21300068: Effect00_34
+    21300070: Effect00_35
+    21300072: Effect00_36
+    21300074: Effect00_37
+    21300076: Effect00_38
+    21300078: Effect00_39
+    21300080: Effect00_40
+    21300082: Effect00_41
+    21300084: Effect00_42
+    21300086: Effect00_43
+    21300088: Effect00_44
+    21300090: Effect00_45
+    21300092: Effect00_46
+    21300094: Effect00_47
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Effect00_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 193.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 193.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 193.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 193.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 193.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 193.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_7
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 193.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_8
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 193.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 193.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 145.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 145.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 145.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_14
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 145.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_15
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 145.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_16
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 145.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_17
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 145.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_18
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 145.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_19
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 145.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_21
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 97.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 97.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 97.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_24
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 97.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_25
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 97.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_26
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 97.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_27
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 97.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_28
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 97.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_29
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 97.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_31
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 49.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_32
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 49.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_33
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 49.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_34
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 49.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_35
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 49.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_36
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 49.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_37
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 49.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_38
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 49.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_39
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 49.6
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5999985
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_41
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1.5999985
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_42
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1.5999985
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_43
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1.5999985
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_44
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1.5999985
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_45
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1.5999985
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_46
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1.5999985
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effect00_47
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1.5999985
+        width: 49.1
+        height: 48.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
