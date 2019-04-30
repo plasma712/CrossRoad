@@ -14,6 +14,7 @@
 - SourceTree : 버전관리 용이 / 데스크탑과 노트북을 이용하여 어디서든 작업가능
 - Visual Studio 2017
 
+
 ## 인게임 스크린샷
 <div>
 <img width="200" src="https://user-images.githubusercontent.com/47206217/56946216-79731e80-6b64-11e9-82b9-9ba77bdc668c.PNG">
@@ -36,6 +37,72 @@
 
 ## 게임 주요 코드
 
+-** 튜토리얼 대화스크립트 호출 **
+~~~
+    IEnumerator TutorialTextCoroutine()
+    {
+        /// <summary>
+        /// CurrentText에서 text를 미리 캐싱해놓음
+        /// </summary>
+        TutoriaMainTextLayOut.gameObject.SetActive(true);
+        TutorialMenualText.text = DummyText.text;
+        TemporatySave.text = DummyText.text;
+        SkipButton.gameObject.SetActive(true);
+
+        if (TextNumber == 17)
+        {
+        }
+
+        if (TextNumber == 18) // 씬넘기기
+        {
+            SceneChange.Instance.MapSettingGameStartTutorial();
+            yield return new WaitForSeconds(0.9f);
+        }
+        CurrentText = XMLMapSettingTutorial.Instance.GetMapSettingTutorial(TextNumber);
+        if(TextNumber==23)
+        {
+            yield return new WaitForSeconds(0.2f);
+        }
+        EventProduct(CurrentText.EventNumber); // 이벤트씬 
+        CharactersName.text = CurrentText.Characters; // 현 대화창 이름
+        TemporatySave.text = CurrentText.MenualExplanationText;
+        yield return new WaitForSeconds(0.1f); // 일부러 지연시킴 TemporatySave가 빠르게 읽지를 못하는경우가 있어서
+        while (true)
+        {
+            TutorialMenualText.text = TutorialMenualText.text.ToString().Insert(TutorialMenualText.text.ToString().Length, TemporatySave.text[TextCount].ToString());
+            yield return new WaitForSeconds(0.01f); // 일부러 지연시킴
+            SoundManagement.Instance.KeyboardSound();
+            yield return new WaitForSeconds(TextTime); // 텍스트 나오는 속도
+            TextCount++;
+            if (TemporatySave.text.ToString().Length <= TutorialMenualText.text.ToString().Length)
+            {
+                //Debug.Log("여기 지나나?");
+                TextCount = 0; // 텍스트 카운트 리셋시켜줌
+                if (CurrentText.EventNumber != 30)
+                {
+                    NextButton.gameObject.SetActive(true);  // 대화스크립트가 끝나면 여기서 멈춰줌
+                    UI_animaiton.Instance.StartCoroutine("UI_ani");
+                }
+                Debug.Log("이벤트제어 변수 값 :  " + CurrentText.EventNumber);
+                if (CurrentText.EventNumber == 9)
+                {
+                    CharactersName.GetComponent<Text>().text = "릴리";
+                }
+
+                else if (CurrentText.EventNumber == 30)
+                {
+                    NextButton.gameObject.SetActive(false);
+
+                   LilyLeft.GetComponent<CharEvent>().BoxSetActiveTrue();
+                   Ellisia.GetComponent<CharEvent>().BoxSetActiveTrue();
+                }
+                StopCoroutine("TutorialTextCoroutine"); // 대화스크립트가 끝나면 여기서 멈춰줌
+                break;
+            }
+            // currentText의 길이값 보다 커지면 break 걸어야할듯?
+        }
+    }
+~~~
 
 ## 게임 기획서
 
