@@ -155,8 +155,163 @@
     }
 ~~~
 
-# 특성 컨트롤
+### 특성 컨트롤
+- 특성 체크(저장및활성화)
+~~~
+public class CharacteristicUsedPointValue : Singleton<CharacteristicUsedPointValue> // 특성마다 포인트가치가 다르기 때문에 따로 스크립트를 뽑은것
+{                                                                                   // 어디서든 참조 가능하게 싱글톤으로 설정
+    public float CUPV_CharacteristicName;       // 플레이어 특성에 대한 고유이름
+    public float CUPV_CharacteristicPointValue; // 플레이어 특성에 대한 포인트 가치
+    float BoolCheck;
 
+    public GameObject Transparency;             // 투명 오브젝트
+    public GameObject GoldFrame;                // 찍히면 줌
+    XMLCharInfoCharacteristicData CurrentData;
+
+    private void Start()
+    {
+        TransparencyLoad();
+    }
+
+    public void TransparencyLoad()
+    {
+        CurrentData = XMLCharInfoCharacteristic.Instance.GetCharacteristic((int)CUPV_CharacteristicName);
+        if (CurrentData.Bool == 1)
+        {
+            Transparency.SetActive(false);
+            GoldFrame.SetActive(true);
+            BoolCheck = 1;
+        }
+        else
+        {
+            Transparency.SetActive(true);
+            BoolCheck = 0;
+        }
+    }
+
+    public void CharacteristicUsed() // 특성 사용함수
+    {
+        if (BoolCheck == 1)
+        {
+            return;
+        }
+        else
+        {
+            if (CharacteristicUIData.Instance.CharacteristicPoint >= CUPV_CharacteristicPointValue) // 특성포인트가 특성가치보다 높거나 같을경우만 실행
+            {
+                CharacteristicUIData.Instance.CharacteristicUsedPoint(CUPV_CharacteristicPointValue);// 플레이어가 특성포인트 사용
+                CharacteristicUIData.Instance.CharacteristicPointLeave();// 플레이어가 가지고있는 최종 특성포인트 계산함수
+                XMLCharInfoCharacteristic.Instance.AddXmlNode(XMLCharInfoCharacteristic.Instance.CharacteristicLength().ToString(),CUPV_CharacteristicName.ToString(), "1"); // 이름,"1"=>Bool값
+                XMLCharInfoCharacteristicPoint.Instance.CreateXml();
+                XMLCharInfoCharacteristic.Instance.LoadXml();
+                CharacteristicUIXMLLoad.Instance.CurrentCharacteristicPointText();
+                TransparencyLoad();
+            }
+            else
+            {
+                return;
+            }
+        }
+    }
+}
+~~~
+
+- 특성 적용체크함수
+~~~
+    public void CharacteristicActivation(int _InherentNumber)
+    {
+        #region 빨강색 특성, 타워 공격력 증가
+        if (_InherentNumber == 0)
+        {
+            fTowerAttack = 1.0f;
+            CurrentfTowerAttack += fTowerAttack;
+        }
+        else if (_InherentNumber == 1)
+        {
+            fTowerAttack = 2.0f;
+            CurrentfTowerAttack += fTowerAttack;
+        }
+        else if (_InherentNumber == 2)
+        {
+            fTowerAttack = 4.0f;
+            CurrentfTowerAttack += fTowerAttack;
+        }
+        else if (_InherentNumber == 3)
+        {
+            fTowerAttack = 8.0f;
+            CurrentfTowerAttack += fTowerAttack;
+            Debug.Log(CurrentfTowerAttack);
+        }
+        #endregion
+        #region 파랑색 특성, 적 이동속도 감소
+        else if (_InherentNumber == 4)
+        {
+            fEnemySpeed = 0.01f;
+            CurrentfEnemySpeed -= fEnemySpeed;
+        }
+        else if (_InherentNumber == 5)
+        {
+            fEnemySpeed = 0.02f;
+            CurrentfEnemySpeed -= fEnemySpeed;
+        }
+        else if (_InherentNumber == 6)
+        {
+            fEnemySpeed = 0.04f;
+            CurrentfEnemySpeed -= fEnemySpeed;
+        }
+        else if (_InherentNumber == 7)
+        {
+            fEnemySpeed = 0.08f;
+            CurrentfEnemySpeed -= fEnemySpeed;
+        }
+        #endregion
+        #region 노랑색 특성, 타워 공격 딜레이 감소
+        else if (_InherentNumber == 8)
+        {
+            fTowerDelay = 0.001f;
+            CurrentfTowerDelay -= fTowerDelay;
+        }
+        else if (_InherentNumber == 9)
+        {
+            fTowerDelay = 0.002f;
+            CurrentfTowerDelay -= fTowerDelay;
+        }
+        else if (_InherentNumber == 10)
+        {
+            fTowerDelay = 0.004f;
+            CurrentfTowerDelay -= fTowerDelay;
+        }
+        else if (_InherentNumber == 11)
+        {
+            fTowerDelay = 0.008f;
+            CurrentfTowerDelay -= fTowerDelay;
+        }
+        #endregion
+        else
+        {
+            return;
+        }
+    }
+~~~
+
+### 타워 공격
+- 타워사정범위 안에 가장 먼저 들어온 적 판별 하기 위한 List
+~~~
+    public List<EnemyMove> ObjectInRangeList = new List<EnemyMove>();
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.tag == "Enemy")
+        {
+            ObjectInRangeList.Add(col.gameObject.GetComponent<EnemyMove>());
+
+            if (NotRange == false)
+            {
+                StartCoroutine("DelayBullet");
+                NotRange = true;
+            }
+        }
+    }
+~~~
 
 ## 게임 기획서
 
