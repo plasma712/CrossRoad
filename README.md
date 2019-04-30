@@ -37,7 +37,10 @@
 
 ## 게임 주요 코드
 
--** 튜토리얼 대화스크립트 호출 **
+# 튜토리얼 대화스크립트 호출
+
+-대화스크립트 스키마 : 스크립트 순서 번호, 이벤트 호출 번호, 캐릭터이름, 대화
+
 ~~~
     IEnumerator TutorialTextCoroutine()
     {
@@ -48,10 +51,6 @@
         TutorialMenualText.text = DummyText.text;
         TemporatySave.text = DummyText.text;
         SkipButton.gameObject.SetActive(true);
-
-        if (TextNumber == 17)
-        {
-        }
 
         if (TextNumber == 18) // 씬넘기기
         {
@@ -98,11 +97,66 @@
                 }
                 StopCoroutine("TutorialTextCoroutine"); // 대화스크립트가 끝나면 여기서 멈춰줌
                 break;
-            }
-            // currentText의 길이값 보다 커지면 break 걸어야할듯?
+            }           
         }
     }
 ~~~
+
+# 타워 생성 및 저장 (맵생성과 비슷 ->생략)
+
+~~~
+    public void Create()
+    {
+        MonsterSummons = new List<XMLMonsterSummonData>();
+        XmlDocument Document = new XmlDocument();
+        XmlElement MonsterSummonListElement = Document.CreateElement("MonsterSummonList");
+        Document.AppendChild(MonsterSummonListElement);
+        Document.Save(Application.dataPath + filePath);
+    }
+
+    public void LoadXml()
+    {
+        MonsterSummons = new List<XMLMonsterSummonData>();
+        XmlDocument Document = new XmlDocument();
+        Document.Load(Application.dataPath + filePath);
+        XmlElement MonsterSummonListElement = Document["MonsterSummonList"];
+
+        foreach(XmlElement MonsterSummonElement in MonsterSummonListElement.ChildNodes)
+        {
+            XMLMonsterSummonData MonsterSummon = new XMLMonsterSummonData
+            {
+                iCount = System.Convert.ToInt32(MonsterSummonElement.GetAttribute("iCount")),
+                fPosX = System.Convert.ToSingle(MonsterSummonElement.GetAttribute("fPosX")),
+                fPosY = System.Convert.ToSingle(MonsterSummonElement.GetAttribute("fPosY")),
+                InherentNumber = System.Convert.ToInt32(MonsterSummonElement.GetAttribute("InherentNumber")),
+            };
+            MonsterSummons.Add(MonsterSummon);
+        }
+    }
+
+    public void AddXmlNode(string iCount,string InherentNumber, string fPosX, string fPosY)
+    {
+        MonsterSummons = new List<XMLMonsterSummonData>();
+        XmlDocument Document = new XmlDocument();
+        Document.Load(Application.dataPath + filePath);
+        XmlElement MonsterSummonListElement = Document["MonsterSummonList"];
+
+        XmlNode node = Document.DocumentElement;
+        XmlElement childNode = Document.CreateElement("MonsterSummon");
+
+        childNode.SetAttribute("InherentNumber", InherentNumber); 
+        childNode.SetAttribute("iCount", iCount); // 문제될수도있음
+        childNode.SetAttribute("fPosX", fPosX);
+        childNode.SetAttribute("fPosY", fPosY);
+
+        MonsterSummonListElement.AppendChild(childNode);
+
+        Document.Save(Application.dataPath + filePath);
+    }
+~~~
+
+# 특성 컨트롤
+
 
 ## 게임 기획서
 
