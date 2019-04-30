@@ -313,6 +313,10 @@ public class CharacteristicUsedPointValue : Singleton<CharacteristicUsedPointVal
     }
 ~~~
 
+## 인게임 동영상 주소
+
+https://www.youtube.com/watch?v=mphLWU3Vsqk
+
 ## 게임 기획서
 
 <img src="https://user-images.githubusercontent.com/47206217/56944074-1467fa80-6b5d-11e9-8017-cd0208ac7626.PNG" width="90%"></img>
