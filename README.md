@@ -15,6 +15,7 @@
 - Visual Studio 2017
 
 ## 인게임 스크린샷
+<div>
 <img width="200" src="https://user-images.githubusercontent.com/47206217/56946216-79731e80-6b64-11e9-82b9-9ba77bdc668c.PNG">
 <img width="200" src="https://user-images.githubusercontent.com/47206217/56946217-79731e80-6b64-11e9-84f5-5b72d2890417.PNG">
 <img width="200" src="https://user-images.githubusercontent.com/47206217/56946218-79731e80-6b64-11e9-8075-f5957abe89e2.PNG">
@@ -31,12 +32,10 @@
 <img width="200" src="https://user-images.githubusercontent.com/47206217/56946235-7bd57880-6b64-11e9-89cf-90e4725dedf8.PNG">
 <img width="200" src="https://user-images.githubusercontent.com/47206217/56946236-7bd57880-6b64-11e9-9a99-ba7c1693a99c.PNG">
 <img width="200" src="https://user-images.githubusercontent.com/47206217/56946237-7c6e0f00-6b64-11e9-8c77-bd4627fc1f0d.PNG">
-
+</div>
 
 ## 게임 주요 코드
-<div>
-  
-</div>
+
 
 ## 게임 기획서
 
